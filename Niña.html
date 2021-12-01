@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa de niña│Maruchan store</title>
+    <link rel="shortcut icon" href="img/LOGO.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java/scrip.js"></script>
+
+<header>
+    <div class=" container logo-nav-container">
+        <a class="logo">
+            <img class="logoanav1" src="img/LOGO.png" alt="LOGO">
+        </a>
+        <nav class="navigation">
+    <ul> 
+         
+        <li><a id="lista" href="index.html">inicio</a></li>
+        <li><a id="lista"  href="informacion.html">información</a></li>
+        <li>
+            <a id="lista"  href="">productos</a>
+        <ul>
+            <li><a href="Hombre.html">Hombre</a></li>
+            <li><a href="Mujer.html">Mujer</a></li>
+            <li><a href="Niño.html">Niño</a></li>
+            <li><a href="Niña.html">Niña</a></li>
+        </ul>
+        </li>
+        <button id="checkout" class="boton-check" onclick="pay()">Pagar</button>
+        </ul>
+</nav>
+    </div>
+
+        </header>
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="page-content">
+        <div class="product-container" class="animado">
+            <h3>Sueter floreado</h3>
+            <img src="img/niña-1.jpg"  
+            <h1 class="presio">$25</h1>
+            <button class="boton" onclick="add('Sueter floreado', 25)">Agregar</button>
+        </div>
+   
+         <div class="product-container" class="animado">
+            <h3>Bestido floreado</h3>
+            <img src="img/niña-2.jpg" />
+            <h1 class="presio">$20</h1>
+            <button class="boton" onclick="add('Bestido floreado', 20)">Agregar</button>
+        </div>
+   
+         <div class="product-container" class="animado">
+            <h3>Blusa colorida</h3>
+            <img src="img/niña-3.jpg" />
+            <h1 class="presio">$25</h1>
+            <button class="boton" onclick="add('Blusa colorida', 25)">Agregar</button>
+        </div>
+         <div class="product-container" class="animado">
+            <h3>Blusa de chango <br> multicolor</h3>
+            <img src="img/niña-4.jpg" />
+            <h1 class="presio">$34</h1>
+            <button class="boton" onclick="add('Blusa de chango multicolor', 34)">Agregar</button>
+        </div>
+        
+         <div class="product-container" class="animado">
+            <h3>Blusa girl boss</h3>
+            <img src="img/niña-5.jpg" />
+            <h1 class="presio">$46</h1>
+            <button class="boton" onclick="add('Blusa girl boss', 46)">Agregar</button>
+        </div>
+   
+         <div class="product-container" class="animado">
+            <h3>Blusa manga larga azul</h3>
+            <img src="img/niña-6.jpg" />
+            <h1 class="presio">$27</h1>
+            <button class="boton" onclick="add('Blusa manga larga azul', 27)">Agregar</button>
+        </div>
+   
+        <div class="product-container" class="animado">
+           <h3>Blusa manga larga azul <br> claro</h3>
+           <img src="img/niña-7.jpg" />
+           <h1 class="presio">$24</h1>
+           <button class="boton" onclick="add('mujer-7', 24)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Blusa casual azul</h3>
+           <img src="img/niña-8.jpg" />
+           <h1 class="presio">$55</h1>
+           <button class="boton" onclick="add('Blusa casual azul', 55)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Blusa con ballenas en el <br>cielo</h3>
+           <img src="img/niña-9.jpg" />
+           <h1 class="presio">$11</h1>
+           <button class="boton" onclick="add('Blusa con ballenas en el cielo ', 11)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Bestido Jeans</h3>
+           <img src="img/niña-10.jpg" />
+           <h1 class="presio">$42</h1>
+           <button class="boton" onclick="add('Bestido Jeans', 42)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Bestido rosadito</h3>
+           <img src="img/niña-11.jpg" />
+           <h1 class="presio">$30</h1>
+           <button class="boton" onclick="add('Bestido rosadito', 30)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Salida de baño</h3>
+           <img src="img/niña-12.jpg" />
+           <h1 class="presio">$50</h1>
+           <button class="boton" onclick="add('Salida de baño', 50)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Conjunto Casual</h3>
+           <img src="img/niña-13.jpg" />
+           <h1 class="presio">$16</h1>
+           <button class="boton" onclick="add('Conjunto Casual', 16)">Agregar</button>
+       </div>
+   
+       <div class="product-container" class="animado">
+           <h3>Blusa Game pro</h3>
+           <img src="img/niña-14.jpg" />
+           <h1 class="presio">$18</h1>
+           <button class="boton" onclick="add('Blusa Game pro', 18)">Agregar</button>
+       </div>
+    </div>
+    
+    
+       
+    
+   
+    
+   
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       
+   
+    <br><br><br><br><br><br><br><br><br><br>
+    <center><footer class="footer">
+       <div class="container">
+           <p>Pagina diseñada por @Maruchan_csmj</p>
+       </div>
+       
+       </footer></center>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(102, 255, 0);
+  font-size: 1.3rem;
+  line-height: 1.6em;
+  background-image: url(../img/FONDO.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+  margin: 0px;
+  margin: 0;
+  
+}
+.boton-check{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(43, 46, 44);
+    transition-duration: 0.4s;
+    right: 15px;
+    bottom: 10px;
+    
+
+}
+.boton-check:hover{
+    background-color:rgb(43, 46, 44);
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+
+}
+
+.informacion{
+    margin-bottom: 1.6em;
+
+}
+div.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(43, 46, 44);
+    color: white;
+    padding: 1px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+} 
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    position: relative;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+  
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+border-radius: 5px;
+
+}
+
+
+    .logoanav1{
+        height: 100px;
+        align-items: stretch;
+    }
+.navigation ul li a:hover{
+background-color: #4a4a4a;
+}
+
+.main{
+    padding-top: 20px;
+}
+
+  footer{
+      background-color: rgb(26, 56, 56);
+      padding: 4rem 0;
+      text-align: center;
+      margin-top: 14px;
+  }
+ 
+
+
+    .navigation ul li ul{
+        display: flex;
+        flex-direction: column;
+position: absolute;
+background: rgb(45, 48, 46)
+    }
+
+  .navigation ul li ul li{
+      width: 180px;
+      position: relative;
+      display: none;
+  }
+
+.navigation ul :hover li {
+    display: block;
+}
+ 
+
+.logoanav2{
+    height: 500px;
+    align-items: center;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(68, 26, 26, 0.507);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+
+input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #4c01fc;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+}
+
+
+.contacto{
+    color: azure;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+.product-container{
+margin:10px ;
+padding: 2px 16px;
+position: relative;
+box-shadow: 0 2px 16px 0 rgb(49, 49, 49);
+background-color: white;
+}
+
+
+.presio{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+
+.product-container:hover{
+box-shadow: 0 8px 16px 0 rgb(204, 255, 21);
+
+}
+
+.product-container img{
+    width: 300px;
+    position: relative;
+}
+
+.boton{
+    font-size: 16px;
+    text-align:center;
+    border-radius: 8px;
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(98, 119, 42);
+    transition-duration: 0.4s;
+    position:absolute ;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer;
+
+}
+.boton:hover{
+background-color:rgb(98, 119, 42);
+color: white;
+cursor: pointer;
+}
+
+img:hover{
+    filter: blur(5px);
+
+}
+
+h3{
+    font-family: monospace;
+    color:#4a4a4a;
+    text-align: center;
+}
+
+
+
